@@ -1,0 +1,39 @@
+/*! Place your custom styles here */
+.height-80{
+	height:80vh;
+}.height-90{
+	height:90vh;
+}
+.intro-text{
+	padding-top:3em;
+}
+.intro-rings{
+	margin-top:-2em;
+}
+.btn--round{
+	border-radius:50px;
+}
+.no-border{
+	border:0!important;
+}
+.p-t{
+	padding-top:1em;
+}
+.m-t {
+    margin-top:1em;
+}
+.m-b{
+margin-bottom:1em;
+}
+.image-inner{
+	position: relative;
+    width: 80%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sm-m-b-lg{
+        margin-bottom:3em;
+    }
+}

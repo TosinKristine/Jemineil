@@ -1,0 +1,745 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JemiNeil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Description Here">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/fontrubiklato.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700%7CRubik:300,400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class=" ">
+    <a id="start"></a>
+    <div class="nav-container">
+        <div class="nav-container ">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                                <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-sm-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+            </div>
+            <div class="notification pos-right pos-top side-menu bg--white" data-notification-link="side-job" data-animation="from-right"
+                 style="padding-top:0;overflow:scroll">
+                <div class="side-menu__module bg--secondary">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1>Let's talk</h1>
+                            <p class="lead">
+                                Fill in the fields below.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end module-->
+                <hr>
+                <div class="side-menu__module">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="boxed boxed--border">
+                                        <form class="text-left form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-recaptcha-sitekey="6LewhCIUAAAAACSwFvBDhgtTbw6EnW6e9dip8o2u" data-recaptcha-theme="light">
+                                            <div class="col-sm-6">
+                                                <label>Name:</label>
+                                                <input type="text" name="name" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Company:</label>
+                                                <input type="text" name="company" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Email Address:</label>
+                                                <input type="email" name="email" class="validate-required validate-email" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Phone:</label>
+                                                <input type="tel" name="phone" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <label>About Project:</label>
+                                                <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Services Required</h5>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Design</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="design" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Development</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="dev" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Branding</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="brand" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Marketing</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="marketing" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Approximate Budget</h5>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>&lt; $5,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="under5k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$5,000 - $10,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="5kto10k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$10,000+</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="10kplus" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 boxed">
+                                                <div class="recaptcha"></div>
+                                            </div>
+                                            <div class="col-sm-12 boxed">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Submit Planner</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                </div>
+            </div>
+            <div class="notification pos-right pos-top side-menu bg--white" data-notification-link="side-study" data-animation="from-right"
+                 style="padding-top:0;overflow:scroll">
+                <div class="side-menu__module bg--secondary">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1>Let's talk</h1>
+                            <p class="lead">
+                                Fill in the fields below.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end module-->
+                <hr>
+                <div class="side-menu__module">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="boxed boxed--border">
+                                        <form class="text-left form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-recaptcha-sitekey="6LewhCIUAAAAACSwFvBDhgtTbw6EnW6e9dip8o2u" data-recaptcha-theme="light">
+                                            <div class="col-sm-6">
+                                                <label>Name:</label>
+                                                <input type="text" name="name" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Company:</label>
+                                                <input type="text" name="company" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Email Address:</label>
+                                                <input type="email" name="email" class="validate-required validate-email" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Phone:</label>
+                                                <input type="tel" name="phone" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <label>About Project:</label>
+                                                <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Services Required</h5>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Design</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="design" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Development</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="dev" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Branding</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="brand" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Marketing</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="marketing" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Approximate Budget</h5>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>&lt; $5,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="under5k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$5,000 - $10,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="5kto10k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$10,000+</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="10kplus" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 boxed">
+                                                <div class="recaptcha"></div>
+                                            </div>
+                                            <div class="col-sm-12 boxed">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Submit Planner</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                </div>
+            </div>
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--transparent">
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="bar__module">
+                            <ul class="menu-horizontal text-left">
+                                <li class="">
+                                    <a href="about.html"><span>Who We Are</span></a>
+                                </li>
+                                <li class="">
+                                    <a href="careers.html"><span>Careers</span></a>
+                                </li>
+                                <li class="dropdown dropdown--hover">
+                                    <a class="dropdown__trigger">HR Services</a>
+                                    <div class="dropdown__container">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="dropdown__content col-md-2 col-sm-4">
+                                                    <ul class="menu-vertical">
+                                                        <li>
+                                                            <a href="hrServices.html">
+                                                                Outsourcing
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hrServices.html#recruitment">
+                                                                Recruitment
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hrServices.html#payroll">
+                                                                Payroll Management
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hrServices.html#advisory">
+                                                                Advisory Services
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="hrServices.html#software">
+                                                                Software
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="">
+                                    <a href="education.html"><span>Academic Services</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end module-->
+                    </div>
+                    <div class="col-md-3 text-center text-left-sm hidden-xs">
+                        <div class="bar__module">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png">
+                                <img class="logo logo-light" alt="logo" src="img/logo-light.png">
+                            </a>
+                        </div>
+                        <!--end module-->
+                    </div>
+                    
+                    <div class="col-md-4 text-right text-left-xs text-left-sm">
+                        <div class="bar__module">
+                            <a class="btn btn--sm btn--primary type--uppercase" href="#" data-notification-link="side-job">
+                                <span class="btn__text">
+                                    Job Candidate
+                                </span>
+                            </a>
+                            <a class="btn btn--sm type--uppercase btn--primary-2" href="#" data-notification-link="side-study">
+                                <span class="btn__text">
+                                    Study Abroad
+                                </span>
+                            </a>
+                        </div>
+                        <!--end module-->
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main-container">
+        <section class="cover height-80 imagebg text-center" data-overlay="4">
+            <div class="background-image-holder">
+                <img alt="background" src="img/knowledge-1.jpg" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="intro-text">Find Creative Industry Jobs</h3>
+                        <p class="lead">
+                            Browse freelance and ongoing jobs from over 1,000 high-profile employers
+                        </p>
+                        <div class="boxed boxed--lg bg--white text-left">
+                            <form class="form--horizontal">
+                                <div class="col-sm-3">
+                                    <input type="text" name="keywords" placeholder="Keywords" />
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" name="location" placeholder="Location" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-select">
+                                        <select>
+                                            <option selected="" value="Default">Select a discipline</option>
+                                            <option value="design">Design</option>
+                                            <option value="development">Development</option>
+                                            <option value="management">Management</option>
+                                            <option value="marketing">Marketing</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="submit" class="btn btn--primary type--uppercase">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+        <!--<section class="bg--primary text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Find Creative Industry Jobs</h1>
+                        <p class="lead">
+                            Browse freelance and ongoing jobs from over 1,000 high-profile employers
+                        </p>
+                        <div class="boxed boxed--lg bg--white text-left">
+                            <form class="form--horizontal">
+                                <div class="col-sm-3">
+                                    <input type="text" name="keywords" placeholder="Keywords" />
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" name="location" placeholder="Location" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="input-select">
+                                        <select>
+                                            <option selected="" value="Default">Select a discipline</option>
+                                            <option value="design">Design</option>
+                                            <option value="development">Development</option>
+                                            <option value="management">Management</option>
+                                            <option value="marketing">Marketing</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="submit" class="btn btn--primary type--uppercase">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        
+        <section class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>The world's best companies, and jobs</h2>
+                        <p class="lead">
+                            We work with some of the most sought-after companies in tech to recruit outstanding applicants
+                        </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="list-inline list-inline--images">
+                            <li>
+                                <img alt="Image" src="img/partner-1.png" />
+                            </li>
+                            <li>
+                                <img alt="Image" src="img/partner-5.png" />
+                            </li>
+                            <li>
+                                <img alt="Image" src="img/partner-7.png" />
+                            </li>
+                            <li>
+                                <img alt="Image" src="img/partner-4.png" />
+                            </li>
+                            <li>
+                                <img alt="Image" src="img/partner-6.png" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="heading-block text-center">
+                            <h3>Popular Categories</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-6">
+                        <a href="#" class="block">
+                            <div class="feature feature-7 boxed text-center imagebg" data-overlay="3">
+                                <div class="background-image-holder">
+                                    <img alt="background" src="img/recruitment-1.jpg" />
+                                </div>
+                                <h4 class="pos-vertical-center">Development</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <a href="#" class="block">
+                            <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
+                                <div class="background-image-holder">
+                                    <img alt="background" src="img/cowork-5.jpg" />
+                                </div>
+                                <h4 class="pos-vertical-center">Design</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                        <a href="#" class="block">
+                            <div class="feature feature-7 boxed text-center imagebg" data-overlay="5">
+                                <div class="background-image-holder">
+                                    <img alt="background" src="img/recruitment-2.jpg" />
+                                </div>
+                                <h4 class="pos-vertical-center">Marketing</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="bg--secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="heading-block text-center">
+                            <h3>Recent Listings</h3>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <span class="label">Fulltime</span>
+                            <h5>Front-end Designer</h5>
+                            <p>
+                                Squarespace Inc.
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <span class="label bg--primary-2">Remote</span>
+                            <h5>Art Director</h5>
+                            <p>
+                                Hobson &amp; Peterson
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <h5>Senior Interface Designer</h5>
+                            <p>
+                                Supply Co. (NYC)
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <h5>Design Internship</h5>
+                            <p>
+                                Instrument San Francisco
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <h5>Graphic Designer (Junior)</h5>
+                            <p>
+                                Paddle Financial
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <span class="label">Fulltime</span>
+                            <h5>Expression Engine Expert</h5>
+                            <p>
+                                Hoëffler
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <span class="label bg--primary-2">Remote</span>
+                            <h5>Full-stack Developer</h5>
+                            <p>
+                                Envato
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feature feature-1 boxed boxed--border">
+                            <h5>Marketing Director</h5>
+                            <p>
+                                Clear Left
+                            </p>
+                            <a href="#">
+                                View &amp; Apply
+                            </a>
+                        </div>
+                        <!--end feature-->
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        
+        
+        <section class="text-center imagebg" data-overlay="4">
+            <div class="background-image-holder">
+                <img alt="background" src="img/recruitment-4.jpg" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <div class="cta">
+                            <h2>Applicants find jobs with Jemi-neil</h2>
+
+                            <a class="btn btn--primary type--uppercase" href="#">
+                                <span class="btn__text">
+                                    Create A Profile
+                                </span>
+                                <span class="label">It's Free</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <footer class="space--sm footer-2 bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Company</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Support</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Locations</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-google icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-twitter icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-instagram icon icon--xs"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="type--fine-print">
+                            &copy;
+                            <span class="update-year"></span> Jemi-Neil Inc.
+                        </span>
+                        <a class="type--fine-print" href="#">Privacy Policy</a>
+                        <a class="type--fine-print" href="#">Legal</a>
+                    </div>
+                    <div class="col-sm-6 text-right text-left-xs">
+
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </footer>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/flickity.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/granim.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

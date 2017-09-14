@@ -1,0 +1,656 @@
+﻿
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JemiNeil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Description Here">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/fontrubiklato.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700%7CRubik:300,400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class=" ">
+    <a id="start"></a>
+    <div class="nav-container">
+        <div class="nav-container ">
+            <div class="bar bar--sm visible-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="index.html">
+                                <img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />
+                                <img class="logo logo-light" alt="logo" src="img/logo-light.png" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-sm-10 text-right">
+                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
+                                <i class="icon icon--sm stack-interface stack-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+            </div>
+            <div class="notification pos-right pos-top side-menu bg--white" data-notification-link="side-job" data-animation="from-right" style="padding-top:0;overflow:scroll">
+                <div class="side-menu__module bg--secondary">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1>Let's talk</h1>
+                            <p class="lead">
+                                Fill in the fields below.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end module-->
+                <hr>
+                <div class="side-menu__module">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="boxed boxed--border">
+                                        <form class="text-left form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-recaptcha-sitekey="6LewhCIUAAAAACSwFvBDhgtTbw6EnW6e9dip8o2u" data-recaptcha-theme="light">
+                                            <div class="col-sm-6">
+                                                <label>Name:</label>
+                                                <input type="text" name="name" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Company:</label>
+                                                <input type="text" name="company" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Email Address:</label>
+                                                <input type="email" name="email" class="validate-required validate-email" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Phone:</label>
+                                                <input type="tel" name="phone" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <label>About Project:</label>
+                                                <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Services Required</h5>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Design</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="design" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Development</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="dev" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Branding</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="brand" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Marketing</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="marketing" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Approximate Budget</h5>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>&lt; $5,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="under5k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$5,000 - $10,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="5kto10k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$10,000+</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="10kplus" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 boxed">
+                                                <div class="recaptcha"></div>
+                                            </div>
+                                            <div class="col-sm-12 boxed">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Submit Planner</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                </div>
+            </div>
+            <div class="notification pos-right pos-top side-menu bg--white" data-notification-link="side-study" data-animation="from-right"
+                 style="padding-top:0;overflow:scroll">
+                <div class="side-menu__module bg--secondary">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <h1>Let's talk</h1>
+                            <p class="lead">
+                                Fill in the fields below.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end module-->
+                <hr>
+                <div class="side-menu__module">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="boxed boxed--border">
+                                        <form class="text-left form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-recaptcha-sitekey="6LewhCIUAAAAACSwFvBDhgtTbw6EnW6e9dip8o2u" data-recaptcha-theme="light">
+                                            <div class="col-sm-6">
+                                                <label>Name:</label>
+                                                <input type="text" name="name" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Company:</label>
+                                                <input type="text" name="company" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Email Address:</label>
+                                                <input type="email" name="email" class="validate-required validate-email" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>Phone:</label>
+                                                <input type="tel" name="phone" class="validate-required" />
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <label>About Project:</label>
+                                                <textarea rows="5" name="description" class="validate-required"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Services Required</h5>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Design</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="design" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Development</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="dev" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Branding</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="brand" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3 col-xs-6 text-center">
+                                                <label class="block">Marketing</label>
+                                                <div class="input-checkbox">
+                                                    <div class="inner"></div>
+                                                    <input type="checkbox" name="marketing" />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 text-center boxed">
+                                                <h5>Approximate Budget</h5>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>&lt; $5,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="under5k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$5,000 - $10,000</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="5kto10k" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-4 text-center">
+                                                <div class="input-radio">
+                                                    <label>$10,000+</label>
+                                                    <div class="inner"></div>
+                                                    <input type="radio" name="budget" value="10kplus" class="validate-required" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 boxed">
+                                                <div class="recaptcha"></div>
+                                            </div>
+                                            <div class="col-sm-12 boxed">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Submit Planner</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                </div>
+            </div>
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bar--dark">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="bar__module">
+                                <ul class="menu-horizontal text-left">
+                                    <li class="">
+                                        <a href="about.html"><span>Who We Are</span></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="careers.html"><span>Careers</span></a>
+                                    </li>
+                                    <li class="dropdown dropdown--hover">
+                                        <a class="dropdown__trigger">HR Services</a>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content col-md-4 col-sm-6">
+                                                        <ul class="menu-vertical">
+                                                            <li>
+                                                                <a href="hrServices.html">
+                                                                    Professional Talent Sourcing & Recruitment
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#eSearch">
+                                                                    Executive Search
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#outsourcing">
+                                                                    Outsourcing
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#training">
+                                                                    Training & Development
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#eeEngagement">
+                                                                    Empployee Engagement
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#pManagement">
+                                                                    Performance Management
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="hrServices.html#software">
+                                                                    Software
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        <a href="education.html"><span>Education Services</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end module-->
+                        </div>
+                        <div class="col-md-3 text-center text-left-sm hidden-xs">
+                            <div class="bar__module">
+                                <a href="index.html">
+                                    <img class="logo logo-dark" alt="logo" src="img/logo-dark.png">
+                                    <img class="logo logo-light" alt="logo" src="img/logo-light.png">
+                                </a>
+                            </div>
+                            <!--end module-->
+                        </div>
+
+                        <div class="col-md-4 text-right text-left-xs text-left-sm">
+                            <div class="bar__module">
+                                <a class="btn btn--sm btn--primary type--uppercase" href="#" data-notification-link="side-job">
+                                    <span class="btn__text">
+                                        Job Candidate
+                                    </span>
+                                </a>
+                                <a class="btn btn--sm type--uppercase btn--primary-2" href="#" data-notification-link="side-study">
+                                    <span class="btn__text">
+                                        Study Abroad
+                                    </span>
+                                </a>
+                            </div>
+                            <!--end module-->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main-container">
+        <section class="cover unpad--bottom switchable bg--secondary text-center-xs" id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 mt--3">
+                        <p>For Employers</p>
+                        <h2>
+                            Our Employer HR Services
+                        </h2>
+                        <a class="btn btn--primary type--uppercase btnConsult" href="javascript:void(0)">
+                            <span class="btn__text">
+                                Get Started
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img alt="Image" src="img/avatar-large-3.png" />
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+
+        <section class="imageblock switchable  feature-large bg--secondary space--sm" id="recruitment">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-5.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Professional Talent Sourcing & Recruitment</h2>
+                        <p class="lead">
+                            Every organization, whether Small, medium enterprise (SMES) to multinationals has established a paradigm shift in talent sourcing and recruitment. They are no longer focusing on recruiting just any pool of employees but talent to match their organization culture, structure, industry experience, person specification and competency requirements. In the words of successful and celebrated American oil well firefighter- Red Adair “If you think it's expensive to hire a professional to do the job, wait until you hire an amateur”.
+                            At Jemi Neil Consulting, we pride ourselves to have the very specific competence, knowledge, experience, large network and accomplished sourcing skills to identify, assess and finally recruit talent across industries. We do not stop there, we proceed to ensure that due backgound and reference checks have been condudcted on all candidates sourced by us.
+                            We have a rich pool of registered and qualified candidates both locally and internationally on our database. If you think a role is dificult to source with the right talent, try us.
+                        </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+        <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm" id="eSearch">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-6.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Executive Search</h2>
+                        <p class="lead">We understand that headhunting executives are extremely critical to any business.  As such, our executive recruitment process is approached differently. We continuously network and engage heavily with the C-level target audience to keep abreast with the most talented and experienced pool of executives across industries. </p>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+        <section class="imageblock switchable feature-large bg--secondary space--sm" id="outsourcing">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-5.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Outsourcing</h2>
+                        <p class="lead">
+                            Organizations may choose to outsource their entire HR department to us as external  Business Partners who will be committed and responsible for the end to end HR Management of its team. We understand how critical an HR team is to any organization and have the capacity to close this gap. We may sometimes second one of our seasoned and experienced HR Business Partners to ensure smooth internal day to day running of the unit.  We also understand that HR Managers and  Business Managers often prefer to focus less of daily employee services and administration challenges. Hence, we second qualified and professional outsourced staff/manpower across all industries to our clients based on defined short term project or contract duration and/or on long term agreements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm" id="training">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-6.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Training & Development</h2>
+                        <p class="lead">We understand that people have different learning styles. At Jemi Neil Consulting, we ensure all training are in alignment with best practise training cycle to meet the needs of every individual. We offer instructor-led training, and other learning and development opportunities through our various reputable technical partners. We will evaluate your needs and then recommend the ideal training modules that will 'best' develop your staff.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="imageblock switchable  feature-large bg--secondary space--sm" id="eeEngagement">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-5.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Employee Engagement</h2>
+                        <p class="lead">At Jemi Neil Consulting, we understand that employee engagement is key in talent  management and retention for organizations. We support our clients in articulating and coordinating workplace employee engagement initiatives to foster team building,  change management and culture evaluation. We believe that employee engagement begins with the personal engagement of the business owners and internal HR team. We offer products to help leaders, managers and supervisors manage their values, behaviors, and working style preferences.
+                            We have expertise in a number of areas, including:
+                            <ul>
+                                <li>
+                                    Building skills for employee collaboration and improving internal capacity to align business and employee goals.
+                                </li>
+                                <li>
+                                    Assisting organizations in the designing & implementation of employee engagement activities.
+                                </li>
+                                <li>
+                                    Communicating and sharing results and impact of employee engagement activities with key audiences.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="imageblock switchable switchable--switch feature-large bg--secondary space--sm" id="pManagement">
+            <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                <div class="background-image-holder">
+                    <img alt="image" src="img/inner-6.jpg" />
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7">
+                        <h2>Performance Management</h2>
+                        <p class="lead">Organizations are moving beyond measuring and rewarding 'activity' to being more 'result oriented'. We understand that the only way to measure effective individual employee and overrall organization performance is through effective 'performance management'.  We can help our clients  put in place realistic and measurable performance management structures which ensures delivery in result or areas requiring performance improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="software" class="imagebg space--xs" style="padding-bottom:0px" data-gradient-bg="#4AC29A,#BDFFF3">
+            <div class="text-center m-b">
+                <h3> HR Software</h3>
+                <a class="btn btn--primary type--uppercase" href="#">
+                    <span class="btn__text">
+                        Take A Look
+                    </span>
+                    <span class="label">New</span>
+                </a>
+            </div>
+            <div class="image-inner">
+                <div class="background-image-holder">
+                    <img alt="background" src="img/software.png" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-5" style="opacity:0">
+                            <div class="boxed boxed--lg border--round bg--white">
+                                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                                    <h3>Employer Spotlight</h3>
+                                    <p class="lead">
+                                        &rdquo;I started working at the Stack coworking space earlier this year and in that time I've met so many inspiring people, and made friends too. I originally joined as an office away from home but have since made Stack my permanent workplace.&ldquo;
+                                    </p>
+                                    <hr class="short" />
+                                    <p>
+                                        Working with Luke is awesome.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+            </div>
+            <!--end of container-->
+        </section>
+
+        <section class="page-navigator no-border">
+            <ul>
+                <li>
+                    <a href="#welcome" class="inner-link" data-title="Employer HR"></a>
+                </li>
+                <li>
+                    <a href="#recruitment" class="inner-link" data-title="Recruitment"></a>
+                </li>
+                <li>
+                    <a href="#outsourcing" class="inner-link" data-title="Outsourcing"></a>
+                </li>
+                <li>
+                    <a href="#eSearch" class="inner-link" data-title="Executive Search"></a>
+                </li>
+                <li>
+                    <a href="#training" class="inner-link" data-title="Training & Development"></a>
+                </li>
+                <li>
+                    <a href="#eeEngagement" class="inner-link" data-title="Employee Engagement"></a>
+                </li>
+                <li>
+                    <a href="#pManagement" class="inner-link" data-title="Performance Management"></a>
+                </li>
+                <li>
+                    <a href="#software" class="inner-link" data-title="HR Software"></a>
+                </li>
+            </ul>
+        </section>
+        <footer class="space--sm footer-2 bg--dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Company</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Support</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <h6 class="type--uppercase">Locations</h6>
+
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-6">
+                        <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-google icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-twitter icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-facebook icon icon--xs"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="socicon socicon-instagram icon icon--xs"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="type--fine-print">
+                            &copy;
+                            <span class="update-year"></span> Jemi-Neil Inc.
+                        </span>
+                        <a class="type--fine-print" href="#">Privacy Policy</a>
+                        <a class="type--fine-print" href="#">Legal</a>
+                    </div>
+                    <div class="col-sm-6 text-right text-left-xs">
+
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </footer>
+    </div>
+    <!--<div class="loader"></div>-->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+        <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/flickity.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/granim.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
